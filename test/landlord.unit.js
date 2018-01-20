@@ -404,6 +404,9 @@ describe('Landlord', function() {
     });
   });
 
+  describe('#_logRequestTimeout', function() {
+  });
+
   describe('#_setJsonRpcRequestTimeout', function() {
     it('will log method, id, data_hash and node_id', function(done) {
       var landlord = complex.createLandlord({ requestTimeout: 1 });
